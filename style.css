@@ -2,6 +2,18 @@ body {
     text-align: center;
 }
 
+.board {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+
+    margin: 0 auto;
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+}
+
 #board {
     width: 400px;
     height: 400px;
@@ -33,4 +45,11 @@ body {
     width: 78px;
     height: 78px;
     border: 1px solid lightblue;
+}
+
+.board .image-board{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
 }
